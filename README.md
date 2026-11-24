@@ -1,7 +1,6 @@
 # Verteilungsänderung erkennen – wer sieht was, und wann – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-abstand-alarm-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-abstand-alarm-demo.streamlit.app/)**
 
 Demo der Reihe **optimaler-transport** („Optimaler Transport: Verteilungen ineinander verschieben“) in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Sie setzt an einer Annahme an, die die Demo „Abstand zwischen Verteilungen“ stehen lässt: *Die Abstände werden an Verteilungen bewertet, die man genau kennt (Raster, bekannte Verschiebung), ohne Rauschen einer Stichprobe und ohne Schwelle.* Hier gilt dagegen: eine Referenz von 100 und ein Fenster von 50 Tageswerten, ein Rauschen der Stichproben und eine Schwelle, die den Alarm auslöst.
 
