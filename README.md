@@ -148,7 +148,7 @@ Der W1-Abstand zwischen der Mischung und der Normalverteilung (4,13) liegt unter
 - **Nicht gemessen:** andere Größen von Referenz und Fenster, eine verunreinigte oder zu kleine Referenz, mehrere Depots oder Kanäle, abhängige Werte (etwa AR(1)), eine geschätzte statt bekannte Familie, ein Tagesprofil (Verteilung über 24 Stunden) statt der Tageswerte.
 - **Literatur** (nur so zitiert, wie gelesen): Zur Dimension verweist die Demo auf Chewi, Niles-Weed, Rigollet, *Statistical optimal transport* (Saint-Flour-Skript 2024) als Hintergrund; die Aussage der Quelle über Zwei-Stichproben-Tests mit W1 in höheren Dimensionen ist hier nicht gegen den Text geprüft, nicht selbst gemessen und wird nicht verwendet, die Demo rechnet nur eine Dimension. Resin u. a., *Shift-dispersion decompositions of Wasserstein and Cramér distances*, arXiv 2408.09770 v3 (Preprint, nur die Zusammenfassung gelesen, nicht nachgerechnet). Weitere Arbeiten zu Tests mit Wasserstein-Abständen sind nur aus Zusammenfassungen bekannt und hier nicht zitiert.
 - **Abgrenzung:** Mittelwertänderungen mit Karte, CUSUM und EWMA (Zähleinheit Lauflänge) zeigen die Demos zur Änderungserkennung (`verfahrenswahl-aenderung-demo`, `lastwechsel-gate-demo`), die Zahl der Werte der Referenz (Phase I) `anfangsparameter-demo`, Brüche im Rückblick `segmentierung-offline-demo`, die Wirkung eines Wechsels auf Prognoseintervalle `forecast-interval-demo`. In `regel-verteilungswechsel-demo` heißt „Verteilungswechsel“ etwas anderes (Wechsel der Instanzfamilie).
-- **Wo es weitergeht:** Datenbedarf und Dimension (spätere Demo der Reihe); der Name und der Link werden bei der Website-Einbindung ergänzt.
+- **Wo es weitergeht:** Datenbedarf und Dimension zeigt die Demo [Wie viele Daten braucht ein Abstand? Dimension, Struktur, Minibatch](https://sebastianhanisch-datenbedarf-demo.streamlit.app/) der Reihe.
 
 ## Verifikation
 
@@ -217,4 +217,4 @@ Gebaut mit Streamlit, Plotly und NumPy.
 
 ---
 
-Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zu den Demos: [Interaktive Demos](https://sebastianhanisch.net/demos.html).
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Optimaler Transport: vom Plan zum Abstand](https://sebastianhanisch.net/konzepte-optimaler-transport.html).

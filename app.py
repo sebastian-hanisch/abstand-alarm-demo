@@ -281,7 +281,7 @@ st.markdown(
 | *Die Abstände werden an Verteilungen bewertet, die man genau kennt (Raster, bekannte Verschiebung), ohne Rauschen einer Stichprobe und ohne Schwelle.* | Hier gilt Referenz 100, Fenster 50 und eine Schwelle: das Rauschen der Stichproben entscheidet, ob ein Abstand etwas erkennt (Experiment 1). Die Rangfolge der Abstände aus der Demo zum Verteilungsabstand (W1 sättigt nicht, KL ist ohne Glättung bei getrennten Trägern unendlich) gilt hier nicht ohne Weiteres: bei der Gestalt liegt KL vorn, bei Streuung und beim Ausreißerblock W1 (beim Einzelausreißer ist W1 mit \\|Mittel\\| gleichauf). | – |
 | *Der Normalzustand ist bekannt (Familie, Mittel, Streuung).* | Nur die Schwelle aus dem Normalzustand setzt das voraus; der Permutationstest nicht, er zahlt dafür bei Ausreißern (Experiment 2). | – |
 | *Es zählt ein Fenster; die Alarme folgen einander nicht.* | Im Strom gilt eine Schwelle je Horizont; die Kalibrierung auf eine mittlere Lauflänge im Normalzustand (ARL₀) ist hier nicht gerechnet. Mittelwertänderung mit Karte, CUSUM und EWMA zeigen die Demos zur Änderungserkennung. | Änderungserkennung (Demos der Reihe zu Karte, CUSUM, EWMA) |
-| *Eine Dimension, 100 und 50 Werte, unabhängige Tageswerte.* | Mehrere Depots oder Kanäle, abhängige Werte und andere Größen von Referenz und Fenster sind nicht gemessen; wie der Datenbedarf mit der Dimension wächst, zeigt diese Demo nicht. | Datenbedarf und Dimension (spätere Demo der Reihe) |
+| *Eine Dimension, 100 und 50 Werte, unabhängige Tageswerte.* | Mehrere Depots oder Kanäle, abhängige Werte und andere Größen von Referenz und Fenster sind nicht gemessen; wie der Datenbedarf mit der Dimension wächst, zeigt diese Demo nicht. | Datenbedarf und Dimension (Demo „Wie viele Daten braucht ein Abstand? Dimension, Struktur, Minibatch“ der Reihe) |
 """
 )
 
@@ -351,5 +351,5 @@ st.markdown("---")
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
     "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
-    "Mehr zu den Demos: [Interaktive Demos](https://sebastianhanisch.net/demos.html)."
+    "Mehr zur Reihe: [Optimaler Transport: vom Plan zum Abstand](https://sebastianhanisch.net/konzepte-optimaler-transport.html)."
 )
